@@ -16,6 +16,10 @@ kubectl get pod
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment udacitymicroserviceimg --type=LoadBalancer --port=80
-minikube service udacitymicroserviceimg
+kubectl port-forward microservice 8000:80 
 
+
+# Get logs
+kubectl logs `kubectl get pods -o=name`
+
+kubectl run microservice --image='udacitymicroserviceimg:v1.0' --port 80
