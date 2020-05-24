@@ -28,4 +28,4 @@ This repository contains the assignment: Operationalize a Machine Learning Micro
 
 This repository has been verified with CircleCI
 
-[![CircleCI](https://circleci.com/gh/balajiudacity/myudacitymachinelearningproject/7.svg?style=svg)](https://circleci.com/gh/balajiudacity/myudacitymachinelearningproject/7)
+[![CircleCI](https://circleci.com/gh/balajiudacity/myudacitymachinelearningproject.svg?style=svg)](https://circleci.com/gh/balajiudacity/myudacitymachinelearningproject)
