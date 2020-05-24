@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+https://circleci.com/gh/balajiudacity/myudacitymachinelearningproject/7
 
 ## Project Overview
 
