@@ -1,19 +1,12 @@
 #!/usr/bin/env bash
-# This file tags and uploads an image to Docker Hub
-
-# Assumes that an image is built via `run_docker.sh`
 
 # Step 1:
-# Create dockerpath
-# dockerpath=bviswanathan/microservices
-export dockerpath="udacitybv/microservices"
+dockerpath=udacitymicroserviceimg
 
-# Step 2:  
-# Authenticate & tag
+# Step 2:
+echo "Docker ID And Image: ${dockerpath}"
 docker login --username udacitybv
-docker tag microservices $dockerpath
-echo "Docker ID and Image: $dockerpath" 
+docker tag udacitymicroserviceimg udacitybv/udacitymicroserviceimg:v1.0
 
 # Step 3:
-# Push image to a docker repository
-docker push $dockerpath
+docker push udacitybv/udacitymicroserviceimg:v1.0
