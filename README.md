@@ -1,5 +1,3 @@
-https://circleci.com/gh/balajiudacity/myudacitymachinelearningproject/7
-
 # Udacity - Operationalize a Machine Learning Microservice API
 
     By Balaji Viswanathan
@@ -9,7 +7,7 @@ This repository contains the assignment: Operationalize a Machine Learning Micro
 ## Creation and activation of the environment
 
  1. Docker installation
- 3. Lints checks with hadolint and pylint
+ 3. Lints checks pylint
  4. Installation of Kubernetes and Minikube
 
 ## Dockerfile
